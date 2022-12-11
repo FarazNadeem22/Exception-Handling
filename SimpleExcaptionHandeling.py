@@ -12,9 +12,7 @@ while True:
         print("From the except block: We tried to pop too many values from the list")
         print(e)
         #break
-        Break = True 
+        break 
     finally:
-        if Break:
-            break
-        else:
-            continue
+        # This is here just to show structure 
+        pass
